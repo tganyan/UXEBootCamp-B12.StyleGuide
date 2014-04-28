@@ -1,0 +1,42 @@
+// Media Queries
+// *********************************************
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 6);
+
+// Layout
+// *********************************************
+.wrapper {
+  @include outer-container;
+
+  header,
+  footer {
+    @include span-columns(12);
+    @include media($tablet) {
+      @include span-columns(8);
+    }
+    @include media($mobile) {
+      @include span-columns(6);
+    }
+  }
+
+  .main-content {
+    @include span-columns(9);
+    @include media($tablet) {
+      @include span-columns(8);
+    }
+    @include media($mobile) {
+      @include span-columns(6);
+    }
+  }
+
+  nav {
+    @include span-columns(2);
+    @include media($tablet) {
+      @include span-columns(8);
+    }
+    @include media($mobile) {
+      @include span-columns(6);
+    }
+  }
+
+}
