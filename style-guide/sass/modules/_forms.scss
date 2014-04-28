@@ -1,0 +1,22 @@
+input[type="text"],
+input[type="email"],
+textarea {
+  border: solid .15em $midnight-blue;
+  font-size: 1em;
+  min-height: 1.5em;
+  width: 100%;
+  display: block;
+  margin: .5em 0;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9);
+  color: $midnight-blue;
+  border-radius: 4px;
+  padding: 1em;
+  font-family: "Open Sans", sans-serif;
+  -webkit-appearance: none;
+}
+
+label {
+  color: $blue;
+  font: bold 1.2em "Open Sans", sans-serif;
+}
+
