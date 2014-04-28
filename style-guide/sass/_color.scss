@@ -1,0 +1,32 @@
+%color {
+  display: inline-block;
+  height: 100px; 
+  width: 100px;
+  padding: 1em;
+  margin: .5em;
+}
+
+.color1 {
+  @extend %color;
+  background-color: $blue;
+}
+
+.color2 {
+  @extend %color;
+  background-color: $darkblue;
+}
+
+.color3 {
+  @extend %color;
+  background-color: $pink;
+}
+
+.color4 {
+  @extend %color;
+  background-color: $yellow;
+}
+
+.color5  {
+  @extend %color;
+  background-color: $green;
+}
