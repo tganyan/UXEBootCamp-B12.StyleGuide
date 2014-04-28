@@ -1,0 +1,75 @@
+//Button extends
+////////////////
+
+%button {
+  padding: 1em;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: all .2s ease;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font: bold 1em "Open Sans", sans-serif;
+  text-decoration: none;
+  border: none;
+}
+
+%button-slide {
+  padding: .5em;
+  border-radius: 4px;
+  font: bold .75em "Open Sans", sans-serif;
+  text-transform: uppercase;
+  transition: all .2s ease;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: $ice-blue;
+  border: solid 1px $midnight-blue;
+}
+
+
+
+//Button Examples
+/////////////////
+
+.button-1 {
+  @extend %button;
+  background-color: $blue;
+  color: $ice-blue;
+  text-shadow: 0px -1px 0px $midnight-blue;
+  &:hover {
+    background-color: $midnight-blue;
+  };
+}
+
+.button-2 {
+  @extend %button;
+  background-color: $green;
+  color: $ice-blue;
+  text-shadow: 0px -1px 0px $midnight-blue;
+  &:hover {
+    background-color: $midnight-blue;
+  };
+}
+
+.button-warn {
+  @extend %button;
+  background-color: $pink;
+  color: $midnight-blue;
+  text-shadow: 0px -1px 0px $pink-dark;
+  &:hover {
+    background-color: $pink-dark;
+  };
+}
+
+//Slide-toggle BTN
+//////////////////
+
+.btn-slide {
+  @extend %button-slide;
+  color: $midnight-blue;
+  &:hover {
+    color: $blue;
+    border: solid 1px $blue;
+  };
+}
