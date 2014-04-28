@@ -109,8 +109,7 @@ html, body {
   text-decoration: none;
   border: none; }
 
-.btn-slide {
-  width: 100%;
+.btn-slide, .btn-submit {
   padding: 0.5em;
   background-color: transparent;
   border-radius: 4px;
@@ -145,10 +144,37 @@ html, body {
     background-color: #e66921; }
 
 .btn-slide {
+  width: 100%;
   color: #091111; }
   .btn-slide:hover {
     color: #115555;
     border: solid 0.2em #115555; }
+
+.btn-submit {
+  margin: 1em auto;
+  width: 100%;
+  color: #091111; }
+  .btn-submit:hover {
+    color: #115555;
+    border: solid 0.2em #115555; }
+
+input[type="text"], input[type="email"], textarea {
+  border: solid 0.15em #091111;
+  font-size: 1em;
+  min-height: 1.5em;
+  width: 100%;
+  display: block;
+  margin: 0.5em 0;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9);
+  color: #091111;
+  border-radius: 4px;
+  padding: 1em;
+  font-family: "Open Sans", sans-serif;
+  -webkit-appearance: none; }
+
+label {
+  color: #115555;
+  font: bold 1.2em "Open Sans", sans-serif; }
 
 .wrapper {
   *zoom: 1;

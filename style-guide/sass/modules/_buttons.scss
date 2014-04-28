@@ -15,7 +15,6 @@
 }
 
 %button-slide {
-  width: 100%;
   padding: .5em;
   background-color: transparent;
   border-radius: 4px;
@@ -69,6 +68,18 @@
 
 .btn-slide {
   @extend %button-slide;
+  width: 100%;
+  color: $midnight-blue;
+  &:hover {
+    color: $blue;
+    border: solid .2em $blue;
+  };
+}
+
+.btn-submit {
+  @extend %button-slide;
+  margin: 1em auto;
+  width: 100%;
   color: $midnight-blue;
   &:hover {
     color: $blue;
