@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "homepage": "https://github.com/tganyan/UXEBootCamp-B12.StyleGuide/tree/master/style-guide",
   "authors": [
-    "Tyler Anyan <tganyan@gmail.com> Macy Aviles <mce.aviles@gmail.com>",
+    "Tyler Anyan <tganyan@gmail.com> Macy Aviles <mce.aviles@gmail.com>"
   ],
-
   "description": "Style Guide created by Tyler Anyan and Macy Aviles",
   "keywords": [
     "node",
@@ -22,5 +21,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bower-bourbon": "~3.1.8",
+    "bower-neat": "~1.5.0"
+  }
 }
