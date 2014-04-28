@@ -1,3 +1,84 @@
-body {
-  background-color: tomato;
-  color: white; }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrapper {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrapper:before, .wrapper:after {
+    content: " ";
+    display: table; }
+  .wrapper:after {
+    clear: both; }
+  .wrapper header, .wrapper footer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .wrapper header:last-child, .wrapper footer:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 768px) {
+      .wrapper header, .wrapper footer {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
+        width: 100%; }
+        .wrapper header:last-child, .wrapper footer:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 480px) {
+      .wrapper header, .wrapper footer {
+        float: left;
+        display: block;
+        margin-right: 4.82916%;
+        width: 100%; }
+        .wrapper header:last-child, .wrapper footer:last-child {
+          margin-right: 0; } }
+  .wrapper .main-content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .wrapper .main-content:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 768px) {
+      .wrapper .main-content {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
+        width: 100%; }
+        .wrapper .main-content:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 480px) {
+      .wrapper .main-content {
+        float: left;
+        display: block;
+        margin-right: 4.82916%;
+        width: 100%; }
+        .wrapper .main-content:last-child {
+          margin-right: 0; } }
+  .wrapper nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%; }
+    .wrapper nav:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 768px) {
+      .wrapper nav {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
+        width: 100%; }
+        .wrapper nav:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 480px) {
+      .wrapper nav {
+        float: left;
+        display: block;
+        margin-right: 4.82916%;
+        width: 100%; }
+        .wrapper nav:last-child {
+          margin-right: 0; } }
