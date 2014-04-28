@@ -110,7 +110,9 @@ html, body {
   border: none; }
 
 .btn-slide {
+  width: 100%;
   padding: 0.5em;
+  background-color: transparent;
   border-radius: 4px;
   font: bold 0.75em "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -119,7 +121,7 @@ html, body {
   letter-spacing: 1px;
   text-decoration: none;
   color: #bbdddd;
-  border: solid 1px #091111; }
+  border: solid 0.2em #091111; }
 
 .button-1 {
   background-color: #115555;
@@ -146,7 +148,7 @@ html, body {
   color: #091111; }
   .btn-slide:hover {
     color: #115555;
-    border: solid 1px #115555; }
+    border: solid 0.2em #115555; }
 
 .wrapper {
   *zoom: 1;

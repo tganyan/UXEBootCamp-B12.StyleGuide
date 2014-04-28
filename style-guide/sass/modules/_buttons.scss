@@ -15,7 +15,9 @@
 }
 
 %button-slide {
+  width: 100%;
   padding: .5em;
+  background-color: transparent;
   border-radius: 4px;
   font: bold .75em "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -24,7 +26,7 @@
   letter-spacing: 1px;
   text-decoration: none;
   color: $ice-blue;
-  border: solid 1px $midnight-blue;
+  border: solid .2em $midnight-blue;
 }
 
 
@@ -70,6 +72,6 @@
   color: $midnight-blue;
   &:hover {
     color: $blue;
-    border: solid 1px $blue;
+    border: solid .2em $blue;
   };
 }
