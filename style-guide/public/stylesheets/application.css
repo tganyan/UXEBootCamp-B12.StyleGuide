@@ -106,8 +106,17 @@ p {
 
 a {
   display: block;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 1em;
   font-weight: bold;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #ee9966; }
+  a:hover {
+    color: #e66921; }
+  a:visited {
+    color: #627e46; }
+  a:active {
+    color: #e66921; }
 
 .color1, .color2, .color3, .color4, .color5 {
   display: inline-block;

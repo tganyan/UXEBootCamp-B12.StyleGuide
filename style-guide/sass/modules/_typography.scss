@@ -29,15 +29,18 @@ p {
 
 a {
   display: block;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 1em;
   font-weight: bold;
   text-decoration: none;
+  color: $primaryColor;
   &:hover {
-
+    color: $primaryHover;
   }
   &:visited {
-
+    color: $secondaryHover;
   }
   &:active {
-
+    color: $primaryHover;
   }
 }
