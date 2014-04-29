@@ -254,6 +254,33 @@ ul > li li li li {
 ul > li li li li li {
   list-style: circle; }
 
+figure {
+  width: 300px;
+  height: 300px;
+  background-color: tomato; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.meter-container-1 {
+  width: 100%;
+  background-color: transparent;
+  padding: 0.25em;
+  border: solid 2px #224444;
+  border-radius: 4px; }
+
+.meter-1 {
+  display: block;
+  width: 20%;
+  height: 30px;
+  background-color: #88aa66;
+  border-radius: 4px;
+  transition: all 1.2s ease; }
+  .meter-1:hover {
+    width: 100%;
+    background-color: #ee9966; }
+
 .wrapper {
   *zoom: 1;
   max-width: 68em;
