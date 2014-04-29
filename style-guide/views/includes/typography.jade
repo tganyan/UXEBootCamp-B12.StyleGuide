@@ -3,9 +3,13 @@ section
   hr
   h2 Font Stacks
   hr
+  p Primary Font: Open Sans
   pre
-    xmp.
+    code.code.language-scss.
       @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+      * {
+        font-family: 'Open Sans', 'sans-serif';
+      }
 
   h2 Section Headers
   hr
@@ -18,9 +22,9 @@ section
   button.btn-slide View Source Code
   section.sourceCode
     div.sassSource(id="panel")
-      h3 Sass
       pre
         code.language-scss.
+          Sass
           h1 {
             font-family: 'Open Sans', 'sans-serif';
             font-size: 4em;
@@ -46,9 +50,9 @@ section
             font-size: 1.5em;
           }
     div.htmlSource(id="panel")
-      h3 Jade
       pre
         code.
+          Jade
           h1 I am the Title of the Page
           h2 I am the Subtitle of the Page
 
@@ -58,14 +62,13 @@ section
   button.btn-slide View Source Code
   section.sourceCode
     div.sassSource(id="panel")
-      h3 Sass
       pre
         code.language-scss.
           p {
+            font-family: 'Open Sans', 'sans-serif';
             padding: 1em;
           }
     div.htmlSource(id="panel")
-      h3 Jade
       pre
         code.
           p This is a block of text that is wrapped in p tags.
@@ -79,7 +82,6 @@ section
   button.btn-slide View Source Code
   section.sourceCode
     div.sassSource(id="panel")
-      h3 Sass
       pre
         code.language-scss.
           a {
@@ -100,7 +102,6 @@ section
             }
           }
     div.htmlSource(id="panel")
-      h3 Jade
       pre
         code.
           a(href="#") Link 1
