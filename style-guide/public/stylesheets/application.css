@@ -104,6 +104,10 @@ h6 {
 p {
   margin: 1em; }
 
+a {
+  display: block;
+  font-weight: bold;
+  text-decoration: none; }
 
 .color1, .color2, .color3, .color4, .color5 {
   display: inline-block;
