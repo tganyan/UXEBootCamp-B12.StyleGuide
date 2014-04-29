@@ -77,12 +77,28 @@ section
     div.sassSource(id="panel")
       pre
         xmp.
-          Sass
-          p {
-            padding: 1em;
+          a {
+            display: block;
+            font-family: 'Open Sans', 'sans-serif';
+            font-size: 1em;
+            font-weight: bold;
+            text-decoration: none;
+            color: $primaryColor;
+            &:hover {
+              color: $primaryHover;
+            }
+            &:visited {
+              color: $secondaryHover;
+            }
+            &:active {
+              color: $primaryHover;
+            }
           }
     div.htmlSource(id="panel")
       pre
         xmp.
           Jade
-          <p>This is a block of text that is wrapped in p tags.</p>
+          a(href="#") Link 1
+          a(href="#") Link 2
+          a(href="#") Link 3
+          a(href="#") Link 4
