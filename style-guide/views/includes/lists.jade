@@ -2,6 +2,7 @@ section
   h1 Lists
   hr
   h2 Ordered Lists
+  hr
   ol
     li Item 1
     li Item 2
@@ -19,7 +20,56 @@ section
                     li Item 1
                     li Item 2
     li Item 4
+  button.btn-slide View Source Code
+  section.sourceCode
+    div.sassSource(id="panel")
+      pre
+        xmp.
+          Sass
+          ol {
+            margin-left:0em; 
+            padding-left:1.5em; 
+            margin-bottom:1em; 
+          }
+          ol > li {
+              list-style: upper-roman;
+          }
+          ol > li li {
+              list-style: upper-alpha;
+          }
+          ol > li li li {
+              list-style: lower-roman;
+          }
+          ol > li li li li {
+              list-style: lower-alpha;
+          }
+          ol > li li li li li {
+              list-style: decimal;
+          }
+
+    div.htmlSource(id="panel")
+      pre
+        xmp.
+          Jade
+          ol
+            li Item 1
+            li Item 2
+            li Item 3
+              ol
+                li Item 1
+                li Item 2
+                  ol
+                    li Item 1
+                    li Item 2
+                      ol
+                        li Item 1
+                        li Item 2
+                          ol
+                            li Item 1
+                            li Item 2
+
   h2 Unordered Lists
+  hr
   ul
     li Item 1
     li Item 2
@@ -37,3 +87,50 @@ section
                     li Item 1
                     li Item 2
     li Item 4
+  button.btn-slide View Source Code
+  section.sourceCode
+    div.sassSource(id="panel")
+      pre
+        xmp.
+          Sass
+          ul {
+            margin-left:0em; 
+            padding-left:1.5em; 
+            margin-bottom:1em; 
+          }
+          ul > li {
+              list-style: disc;
+          }
+          ul > li li {
+              list-style: circle;
+          }
+          ul > li li li {
+              list-style: square;
+          }
+          ul > li li li li {
+              list-style: disc;
+          }
+          ul > li li li li li {
+              list-style: circle;
+          }
+
+    div.htmlSource(id="panel")
+      pre
+        xmp.
+          Jade
+          ul
+            li Item 1
+            li Item 2
+            li Item 3
+              ul
+                li Item 1
+                li Item 2
+                  ul
+                    li Item 1
+                    li Item 2
+                      ul
+                        li Item 1
+                        li Item 2
+                          ul
+                            li Item 1
+                            li Item 2
