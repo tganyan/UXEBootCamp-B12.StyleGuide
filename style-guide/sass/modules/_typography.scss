@@ -28,6 +28,9 @@ p {
 }
 
 a {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
   &:hover {
 
   }
@@ -35,6 +38,6 @@ a {
 
   }
   &:active {
-    
+
   }
 }
