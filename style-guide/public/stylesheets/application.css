@@ -205,6 +205,36 @@ label {
   color: #115555;
   font: bold 1.2em "Open Sans", sans-serif; }
 
+ol > li {
+  list-style: upper-roman; }
+
+ol > li li {
+  list-style: upper-alpha; }
+
+ol > li li li {
+  list-style: lower-roman; }
+
+ol > li li li li {
+  list-style: lower-alpha; }
+
+ol > li li li li li {
+  list-style: decimal; }
+
+ul > li {
+  list-style: disc; }
+
+ul > li li {
+  list-style: circle; }
+
+ul > li li li {
+  list-style: square; }
+
+ul > li li li li {
+  list-style: disc; }
+
+ul > li li li li li {
+  list-style: circle; }
+
 .wrapper {
   *zoom: 1;
   max-width: 68em;
