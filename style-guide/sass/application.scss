@@ -6,30 +6,32 @@
 
 // Global Imports
 /////////////////
-@import "_reset.scss";
+@import "reset";
 
 @import "bourbon";
 
 @import "neat";
 
-@import "_variables.scss";
+@import "variables";
 
-@import "_mixins.scss";
+@import "mixins";
 
-@import "_globals.scss";
-
-@import "_typography.scss";
-
-@import "_color.scss";
+@import "globals";
 
 //Modules
 /////////
 
-@import "modules/_buttons.scss";
+@import "typography";
 
-@import "modules/_forms.scss";
+@import "color";
 
-@import "modules/_lists.scss";
+@import "modules/buttons";
+
+@import "modules/forms";
+
+@import "modules/lists";
+
+@import "modules/images";
 
 //Layout Imports
 ////////////////
