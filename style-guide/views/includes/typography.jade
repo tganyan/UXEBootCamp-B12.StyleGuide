@@ -1,4 +1,4 @@
-section  
+section
   h1 Typography
   hr
   h2 Font Stacks
@@ -18,8 +18,9 @@ section
   button.btn-slide View Source Code
   section.sourceCode
     div.sassSource(id="panel")
+      h3 Sass
       pre
-        xmp.
+        code.language-scss.
           h1 {
             font-family: 'Open Sans', 'sans-serif';
             font-size: 4em;
@@ -45,10 +46,11 @@ section
             font-size: 1.5em;
           }
     div.htmlSource(id="panel")
+      h3 Jade
       pre
-        xmp.
-          <h1>I am the Title of the Page</h1>
-          <h2>I am the Subtitle of the Page</h2>
+        code.
+          h1 I am the Title of the Page
+          h2 I am the Subtitle of the Page
 
   h2 p Tags
   hr
@@ -56,15 +58,17 @@ section
   button.btn-slide View Source Code
   section.sourceCode
     div.sassSource(id="panel")
+      h3 Sass
       pre
-        xmp.
+        code.language-scss.
           p {
             padding: 1em;
           }
     div.htmlSource(id="panel")
+      h3 Jade
       pre
-        xmp.
-          <p>This is a block of text that is wrapped in p tags.</p>
+        code.
+          p This is a block of text that is wrapped in p tags.
 
   h2 Links
   hr
@@ -75,8 +79,9 @@ section
   button.btn-slide View Source Code
   section.sourceCode
     div.sassSource(id="panel")
+      h3 Sass
       pre
-        xmp.
+        code.language-scss.
           a {
             display: block;
             font-family: 'Open Sans', 'sans-serif';
@@ -95,9 +100,9 @@ section
             }
           }
     div.htmlSource(id="panel")
+      h3 Jade
       pre
-        xmp.
-          Jade
+        code.
           a(href="#") Link 1
           a(href="#") Link 2
           a(href="#") Link 3
