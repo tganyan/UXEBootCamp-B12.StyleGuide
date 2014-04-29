@@ -8,25 +8,25 @@
 
 .color1 {
   @extend %color;
-  background-color: $blue;
+  background-color: $primaryColor;
 }
 
 .color2 {
   @extend %color;
-  background-color: $darkblue;
+  background-color: $secondaryColor;
 }
 
 .color3 {
   @extend %color;
-  background-color: $pink;
+  background-color: $lightAccentColor;
 }
 
 .color4 {
   @extend %color;
-  background-color: $yellow;
+  background-color: $darkAccentColor;
 }
 
 .color5  {
   @extend %color;
-  background-color: $green;
+  background-color: $borderColor;
 }

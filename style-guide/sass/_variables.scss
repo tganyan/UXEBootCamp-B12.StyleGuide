@@ -1,17 +1,16 @@
 //Color Variables
 /////////////////
 
-$blue: #115555;
-$darkblue: #224444;
-$pink: #ee9966;
-$yellow: #eecc66;
-$green: #88aa66;
-$ice-blue: #bbdddd;
+$primaryColor: #ee9966;
+$secondaryColor: #88aa66;
+$darkAccentColor: #115555;
+$lightAccentColor: #eecc66;
+$borderColor: #224444;
 
 //Hover Links
 /////////////
-$pink-dark: darken($pink, 15%);
-$midnight-blue: darken($darkblue, 15%);
+$primaryHover: darken($primaryColor, 15%);
+$secondaryHover: darken($secondaryColor, 15%);
 
 //Typography Variables
 //////////////////////
