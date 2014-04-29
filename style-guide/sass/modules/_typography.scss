@@ -26,3 +26,15 @@ h6 {
 p {
   margin: 1em;
 }
+
+a {
+  &:hover {
+
+  }
+  &:visited {
+
+  }
+  &:active {
+    
+  }
+}

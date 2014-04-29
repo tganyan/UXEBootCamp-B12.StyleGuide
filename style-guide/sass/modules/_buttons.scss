@@ -24,8 +24,8 @@
   text-align: center;
   letter-spacing: 1px;
   text-decoration: none;
-  color: $ice-blue;
-  border: solid .2em $midnight-blue;
+  color: $darkAccentColor;
+  border: solid .2em $borderColor;
 }
 
 
@@ -34,31 +34,31 @@
 
 .button-1 {
   @extend %button;
-  background-color: $blue;
-  color: $ice-blue;
-  text-shadow: 0px -1px 0px $midnight-blue;
+  background-color: $primaryColor;
+  color: $primaryHover;
+  text-shadow: 0px -1px 0px $borderColor;
   &:hover {
-    background-color: $midnight-blue;
+    background-color: $borderColor;
   };
 }
 
 .button-2 {
   @extend %button;
-  background-color: $green;
-  color: $ice-blue;
-  text-shadow: 0px -1px 0px $midnight-blue;
+  background-color: $secondaryColor;
+  color: $secondaryHover;
+  text-shadow: 0px -1px 0px $borderColor;
   &:hover {
-    background-color: $midnight-blue;
+    background-color: $borderColor;
   };
 }
 
 .button-warn {
   @extend %button;
-  background-color: $pink;
-  color: $midnight-blue;
-  text-shadow: 0px -1px 0px $pink-dark;
+  background-color: $lightAccentColor;
+  color: $darkAccentColor;
+  text-shadow: 0px -1px 0px $borderColor;
   &:hover {
-    background-color: $pink-dark;
+    background-color: $borderColor;
   };
 }
 
@@ -68,10 +68,10 @@
 .btn-slide {
   @extend %button-slide;
   width: 100%;
-  color: $midnight-blue;
+  color: $darkAccentColor;
   &:hover {
-    color: $blue;
-    border: solid .2em $blue;
+    color: $borderColor;
+    border: solid .2em $borderColor;
   };
 }
 
@@ -79,9 +79,9 @@
   @extend %button-slide;
   margin: 1em auto;
   width: 100%;
-  color: $midnight-blue;
+  color: $darkAccentColor;
   &:hover {
-    color: $blue;
-    border: solid .2em $blue;
+    color: $borderColor;
+    border: solid .2em $borderColor;
   };
 }
