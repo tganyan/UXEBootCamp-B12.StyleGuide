@@ -14,8 +14,6 @@
 
 @import "variables";
 
-@import "mixins";
-
 @import "globals";
 
 //Modules
@@ -23,7 +21,7 @@
 
 @import "typography";
 
-@import "color";
+@import "modules/color";
 
 @import "modules/buttons";
 
