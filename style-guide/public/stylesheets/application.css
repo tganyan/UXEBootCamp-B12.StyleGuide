@@ -341,6 +341,12 @@ img {
   width: 100%;
   height: auto; }
 
+.svg-container {
+  max-width: 13em;
+  width: 100%;
+  height: auto;
+  background: url(http://placehold.it/350x150); }
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
