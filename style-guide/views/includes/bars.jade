@@ -5,33 +5,34 @@ section
     div.meter-1
   div.caption
     p Here is a simple progress bar, hover over the meter to see the effect.
-  button.btn-slide View Source Code
-  pre
-    code.scss.
-      .meter-container {
-        width: 100%;
-        background-color: transparent;
-        padding: .25em;
-        border: solid 2px $borderColor;
-        border-radius: 4px;
-      }
-
-      .meter {
-        display: block;
-        width: 20%;
-        height: 30px;
-        background-color: $secondaryColor;
-        border-radius: 4px;
-        transition: all 1.2s ease;
-        &:hover {
+  section.sourceCode
+    button.btn-slide View Source Code
+    pre
+      code.scss.
+        .meter-container {
           width: 100%;
-          background-color: $primaryColor;
-        };
-      }
-  pre
-    code.jade.
-      div.meter-container-1
-      div.meter-1
-  pre
-    code.javascript.
-      To be determined.
+          background-color: transparent;
+          padding: .25em;
+          border: solid 2px $borderColor;
+          border-radius: 4px;
+        }
+
+        .meter {
+          display: block;
+          width: 20%;
+          height: 30px;
+          background-color: $secondaryColor;
+          border-radius: 4px;
+          transition: all 1.2s ease;
+          &:hover {
+            width: 100%;
+            background-color: $primaryColor;
+          };
+        }
+    pre
+      code.jade.
+        div.meter-container-1
+        div.meter-1
+    pre
+      code.language-javascript.
+        To be determined.
