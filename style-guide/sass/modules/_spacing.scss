@@ -1,7 +1,6 @@
 h1 {
   padding-bottom: .5em;
   padding-top: .3em;
-  padding-left: .3em;
   @include media($tablet) {
     padding-bottom: .5em;
   }
@@ -13,7 +12,6 @@ h1 {
 h2, h3, h4, h5, h6 {
   padding-bottom: .4em;
   padding-top: .3em;
-  padding-left: .4em;
   @include media($tablet) {
     padding-bottom: .3em;
   }
@@ -24,21 +22,19 @@ h2, h3, h4, h5, h6 {
 
 
 hr {
-  width: 95%;
+  width: 100%;
   height: 3px;
-  color: $darkAccentColor;
-  background: $darkAccentColor;
-  font-size: 0;
-  border: 0;
+  background: darken(#ddd, 10%);
+  border: none;
+  margin: 0 0 1.4em;
 }
 
 .sub-hr {
-  width: 95%;
+  width: 100%;
   height: 1px;
-  color: $darkAccentColor;
-  background: $darkAccentColor;
-  font-size: 0;
-  border: 0;
+  background: darken(#ddd, 10%);
+  border: none;
+  margin: 0 0 1.4em;
 }
 
 .sourceCode {
