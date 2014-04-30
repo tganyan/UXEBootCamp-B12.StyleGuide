@@ -1,18 +1,18 @@
 //Sticky nav script
-// $(document).ready(function(){
-//        $(window).bind('scroll', function() {
-//        var navHeight = $( window ).height() - 100;
-//              if ($(window).scrollTop() > navHeight) {
-//                  $('nav').addClass('fixed');
-//              }
-//              else {
-//                  $('nav').removeClass('fixed');
-//              }
-//         });
-//     });
+
+$(document).ready(function(){
+       $(window).bind('scroll', function() {
+       var navHeight = $( window ).height() - -200;
+             if ($(window).scrollTop() > navHeight) {
+                 $('nav').addClass('fixed');
+             }
+             else {
+                 $('nav').removeClass('fixed');
+             }
+        });
 
 //Smooth scroll function
-$(function() {
+
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -25,10 +25,16 @@ $(function() {
       }
     }
   });
-});
 
 // Slide toggles the panel ID and toggles the active class.
-$(".btn-slide").click(function(){
-    $("#panel").slideToggle("slow");
-    $(this).toggleClass("active");
+
+  $("pre").hide();
+
+  $(".sourceButton").click(function(){
+    var $this = $(this);
+    $this.find("pre").slideToggle();   
+    
+  });
+
+
 });
