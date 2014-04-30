@@ -26,13 +26,12 @@ $(document).ready(function(){
   });
 
 // Slide toggles the panel ID and toggles the active class.
-  
-  $(".btn-slide").click(function(){
-    
+
+  $("pre").hide();
+
+  $(".sourceButton").click(function(){
     var $this = $(this);
-    
-    $this.siblings().children().slideUp(300);
-    $this.children().slideToggle(300);   
+    $this.find("pre").slideToggle();   
     
   });
 

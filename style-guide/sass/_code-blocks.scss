@@ -1,3 +1,20 @@
+aside {
+  width: 100%;
+  color: darken($secondaryColor, 15%);
+  border: solid .2em darken($secondaryColor, 15%);
+  padding: .5em;
+  background-color: transparent;
+  border-radius: 4px;
+  &:hover {
+    color: $secondaryColor;
+    border: solid .2em $secondaryColor;
+  }
+  &:active {
+    color: $secondaryColor;
+    border: solid .2em $secondaryColor;
+  }
+}
+
 code {
   font-family: "Courier New", Courier, monospace, sans-serif;
   text-align: left;
@@ -27,3 +44,4 @@ pre code[class]:before {
   padding-top: .4em;
   padding-right: .1em;
 }
+

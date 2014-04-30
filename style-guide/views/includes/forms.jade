@@ -15,44 +15,44 @@ section.form-field
 
     button.btn-submit Send Message
   section.sourceCode  
-    button.btn-slide View Source Code
-    pre
-      code.scss.
-        input[type="text"],
-        input[type="email"],
-        textarea {
-          border: solid .15em $midnight-blue;
-          font-size: 1em;
-          min-height: 1.5em;
-          width: 100%;
-          display: block;
-          margin: .5em 0;
-          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9);
-          color: $midnight-blue;
-          border-radius: 4px;
-          padding: 1em;
-          font-family: "Open Sans", sans-serif;
-          -webkit-appearance: none;
-        }
+    aside.sourceButton View Source Code
+      pre
+        code.scss.
+          input[type="text"],
+          input[type="email"],
+          textarea {
+            border: solid .15em $midnight-blue;
+            font-size: 1em;
+            min-height: 1.5em;
+            width: 100%;
+            display: block;
+            margin: .5em 0;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9);
+            color: $midnight-blue;
+            border-radius: 4px;
+            padding: 1em;
+            font-family: "Open Sans", sans-serif;
+            -webkit-appearance: none;
+          }
 
-        label {
-          color: $blue;
-          font: bold 1.2em "Open Sans", sans-serif;
-        }
-    pre
-      code.jade.
-        section.form-field
-        h1 A Basic Form Field
-        form(action='#', method='get')
-          ul
-            li
-              label(for='name') Can I get your name?
-              input.input-1(type='text', placeholder='Your Name', name='name', tabindex='1')
-            li
-              label(for='email') How's about an email?
-              input.input-1(type='email', placeholder='Your Email', name='email', tabindex='2')
-            li
-              label(for='message') What's on your mind?
-              textarea.input-2(placeholder='Message…', name='message', tabindex='3')
+          label {
+            color: $blue;
+            font: bold 1.2em "Open Sans", sans-serif;
+          }
+      pre
+        code.jade.
+          section.form-field
+          h1 A Basic Form Field
+          form(action='#', method='get')
+            ul
+              li
+                label(for='name') Can I get your name?
+                input.input-1(type='text', placeholder='Your Name', name='name', tabindex='1')
+              li
+                label(for='email') How's about an email?
+                input.input-1(type='email', placeholder='Your Email', name='email', tabindex='2')
+              li
+                label(for='message') What's on your mind?
+                textarea.input-2(placeholder='Message…', name='message', tabindex='3')
 
-          button.btn-submit Send Message
+            button.btn-submit Send Message
