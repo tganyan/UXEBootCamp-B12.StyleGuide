@@ -9,15 +9,15 @@ section
     div.color5 #88aa66
   button.btn-slide View Source Code
   section.sourceCode
-    div.sassSource(id="panel")
-      pre
-        code.language-scss.
-          $blue: #115555;
-          $darkblue: #224444;
-          $pink: #ee9966;
-          $yellow: #eecc66;
-          $green: #88aa66;
+    pre
+      code.scss.
+        $primaryColor: #ee9966;
+        $secondaryColor: #88aa66;
+        $darkAccentColor: #115555;
+        $lightAccentColor: #eecc66;
+        $borderColor: #224444;
 
-          section {
-            color: $blue;
-          }
+        section {
+          color: $primaryColor;
+          background-color: $lightAccentColor;
+        }

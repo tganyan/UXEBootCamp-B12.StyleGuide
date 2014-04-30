@@ -1,5 +1,6 @@
 section
   h1 Buttons
+  hr
   div.buttonwrap
     div.button-div
       button.button-1 Primary
@@ -9,88 +10,82 @@ section
       button.btn-slide Toggle Panel
   button.btn-slide View Source Code
   section.sourceCode
-    H3 Sass
-    div.sassSource(id="panel")
-      pre
-        code.language-scss.
-          %button {
-            padding: 1em;
-            border-radius: 4px;
-            text-transform: uppercase;
-            transition: all .2s ease;
-            text-align: center;
-            letter-spacing: 1px;
-            text-decoration: none;
-            font: bold 1em "Open Sans", sans-serif;
-            text-decoration: none;
-            border: none;
-          }
+    pre
+      code.scss.
+        %button {
+          padding: 1em;
+          border-radius: 4px;
+          text-transform: uppercase;
+          transition: all .2s ease;
+          text-align: center;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font: bold 1em "Open Sans", sans-serif;
+          text-decoration: none;
+          border: none;
+        }
 
-          %button-slide {
-            padding: .5em;
-            border-radius: 4px;
-            font: bold .75em "Open Sans", sans-serif;
-            text-transform: uppercase;
-            transition: all .2s ease;
-            text-align: center;
-            letter-spacing: 1px;
-            text-decoration: none;
-            color: $ice-blue;
-            border: solid 1px $midnight-blue;
-          }
+        %button-slide {
+          padding: .5em;
+          border-radius: 4px;
+          font: bold .75em "Open Sans", sans-serif;
+          text-transform: uppercase;
+          transition: all .2s ease;
+          text-align: center;
+          letter-spacing: 1px;
+          text-decoration: none;
+          color: $ice-blue;
+          border: solid 1px $midnight-blue;
+        }
 
-          .button-1 {
-            @extend %button;
-            background-color: $blue;
-            color: $ice-blue;
-            text-shadow: 0px -1px 0px $midnight-blue;
-            &:hover {
-              background-color: $midnight-blue;
-            };
-          }
+        .button-1 {
+          @extend %button;
+          background-color: $blue;
+          color: $ice-blue;
+          text-shadow: 0px -1px 0px $midnight-blue;
+          &:hover {
+            background-color: $midnight-blue;
+          };
+        }
 
-          .button-2 {
-            @extend %button;
-            background-color: $green;
-            color: $ice-blue;
-            text-shadow: 0px -1px 0px $midnight-blue;
-            &:hover {
-              background-color: $midnight-blue;
-            };
-          }
+        .button-2 {
+          @extend %button;
+          background-color: $green;
+          color: $ice-blue;
+          text-shadow: 0px -1px 0px $midnight-blue;
+          &:hover {
+            background-color: $midnight-blue;
+          };
+        }
 
-          .button-warn {
-            @extend %button;
-            background-color: $pink;
-            color: $midnight-blue;
-            text-shadow: 0px -1px 0px $pink-dark;
-            &:hover {
-              background-color: $pink-dark;
-            };
-          }
+        .button-warn {
+          @extend %button;
+          background-color: $pink;
+          color: $midnight-blue;
+          text-shadow: 0px -1px 0px $pink-dark;
+          &:hover {
+            background-color: $pink-dark;
+          };
+        }
 
-          .btn-slide {
-            @extend %button-slide;
-            color: $midnight-blue;
-            &:hover {
-              color: $blue;
-              border: solid 1px $blue;
-            };
-          }
-    H3 Jade
-    div.htmlSource(id="panel")
-      pre
-        code.
-            div.button-div
-              button.button-1 Primary
-              button.button-2 Secondary
-              button.button-warn Warning
-              button.btn-slide Toggle
-    H3 Javascript
-    div.jsSource(id="panel")
-      pre
-        code.language-javascript.
-            $(".btn-slide").click(function(){
-            $("#panel").slideToggle("slow");
-            $(this).toggleClass("active");
-        });
+        .btn-slide {
+          @extend %button-slide;
+          color: $midnight-blue;
+          &:hover {
+            color: $blue;
+            border: solid 1px $blue;
+          };
+        }
+    pre
+      code.jade.
+          div.button-div
+            button.button-1 Primary
+            button.button-2 Secondary
+            button.button-warn Warning
+            button.btn-slide Toggle
+    pre
+      code.javascript.
+          $(".btn-slide").click(function(){
+          $("#panel").slideToggle("slow");
+          $(this).toggleClass("active");
+      });
