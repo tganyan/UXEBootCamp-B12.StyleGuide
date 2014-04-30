@@ -377,6 +377,37 @@ img {
     width: 100%;
     background-color: #ee9966; }
 
+nav {
+  padding: 0.5%;
+  width: 100%;
+  position: fixed;
+  top: 10em;
+  right: 0;
+  color: #115555;
+  font-weight: bold;
+  border-top: solid 2px #224444; }
+  @media screen and (max-width: 768px) {
+    nav {
+      position: fixed;
+      top: 0;
+      line-height: 0;
+      border: none; } }
+  @media screen and (max-width: 768px) {
+    nav p {
+      line-height: 0; } }
+
+select {
+  background-color: #115555;
+  border: none;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 4px; }
+  @media screen and (max-width: 768px) {
+    select {
+      position: fixed;
+      top: 0;
+      border: none; } }
+
 .wrapper {
   *zoom: 1;
   max-width: 68em;
@@ -474,11 +505,19 @@ header {
     font-weight: bold;
     text-shadow: 0px -1px 0px #115555;
     float: left; }
+    @media screen and (max-width: 768px) {
+      header h1 {
+        float: left;
+        margin-top: 0.5em; } }
   header h2 {
     font-size: 1.25em;
     color: white;
     float: right;
     margin-top: 3em; }
+    @media screen and (max-width: 768px) {
+      header h2 {
+        float: left;
+        margin-top: 0; } }
   header span {
     font-style: italic;
     font-weight: bolder;

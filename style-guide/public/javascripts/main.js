@@ -1,4 +1,5 @@
 //Sticky nav script
+
 $(document).ready(function(){
        $(window).bind('scroll', function() {
        var navHeight = $( window ).height() - -200;
