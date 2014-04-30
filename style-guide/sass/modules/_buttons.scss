@@ -2,7 +2,7 @@
 ////////////////
 
 %button {
-  padding: 1em;
+  padding: .5em;
   border-radius: 4px;
   text-transform: uppercase;
   transition: all .2s ease;
@@ -36,7 +36,6 @@
   @extend %button;
   background-color: $primaryColor;
   color: $primaryHover;
-  text-shadow: 0px -1px 0px $borderColor;
   &:hover {
     background-color: $borderColor;
   };
@@ -46,7 +45,6 @@
   @extend %button;
   background-color: $secondaryColor;
   color: $secondaryHover;
-  text-shadow: 0px -1px 0px $borderColor;
   &:hover {
     background-color: $borderColor;
   };
@@ -56,9 +54,9 @@
   @extend %button;
   background-color: $lightAccentColor;
   color: $darkAccentColor;
-  text-shadow: 0px -1px 0px $borderColor;
   &:hover {
     background-color: $borderColor;
+    color: $lightAccentColor;
   };
 }
 
@@ -70,8 +68,8 @@
   width: 100%;
   color: $darkAccentColor;
   &:hover {
-    color: $borderColor;
-    border: solid .2em $borderColor;
+    color: $secondaryColor;
+    border: solid .2em $secondaryColor;
   };
 }
 
@@ -81,7 +79,7 @@
   width: 100%;
   color: $darkAccentColor;
   &:hover {
-    color: $borderColor;
-    border: solid .2em $borderColor;
+    color: $secondaryColor;
+    border: solid .2em $secondaryColor;
   };
 }
