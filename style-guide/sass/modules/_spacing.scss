@@ -1,0 +1,47 @@
+h1 {
+  padding-bottom: .5em;
+  padding-top: .3em;
+  padding-left: .3em;
+  @include media($tablet) {
+    padding-bottom: .5em;
+  }
+  @include media($mobile) {
+    padding-bottom: .2em;
+  }
+}
+
+h2, h3, h4, h5, h6 {
+  padding-bottom: .4em;
+  padding-top: .3em;
+  padding-left: .4em;
+  @include media($tablet) {
+    padding-bottom: .3em;
+  }
+  @include media($mobile) {
+    padding-bottom: .2em;
+  }
+}
+
+
+hr {
+  width: 95%;
+  height: 3px;
+  color: $darkAccentColor;
+  background: $darkAccentColor;
+  font-size: 0;
+  border: 0;
+}
+
+.sub-hr {
+  width: 95%;
+  height: 1px;
+  color: $darkAccentColor;
+  background: $darkAccentColor;
+  font-size: 0;
+  border: 0;
+}
+
+.sourceCode {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}

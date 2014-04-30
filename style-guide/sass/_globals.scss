@@ -43,3 +43,14 @@ visibility: hidden;
 width: 0;
 height: 0;
 }
+
+// Media Queries
+// *********************************************
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 6);
+
+
+// Spacing
+///////////////////////////////////
+
+@import "modules/spacing";

@@ -77,6 +77,48 @@ html, body {
   width: 0;
   height: 0; }
 
+h1 {
+  padding-bottom: 0.5em;
+  padding-top: 0.3em;
+  padding-left: 0.3em; }
+  @media screen and (max-width: 768px) {
+    h1 {
+      padding-bottom: 0.5em; } }
+  @media screen and (max-width: 480px) {
+    h1 {
+      padding-bottom: 0.2em; } }
+
+h2, h3, h4, h5, h6 {
+  padding-bottom: 0.4em;
+  padding-top: 0.3em;
+  padding-left: 0.4em; }
+  @media screen and (max-width: 768px) {
+    h2, h3, h4, h5, h6 {
+      padding-bottom: 0.3em; } }
+  @media screen and (max-width: 480px) {
+    h2, h3, h4, h5, h6 {
+      padding-bottom: 0.2em; } }
+
+hr {
+  width: 95%;
+  height: 3px;
+  color: #115555;
+  background: #115555;
+  font-size: 0;
+  border: 0; }
+
+.sub-hr {
+  width: 95%;
+  height: 1px;
+  color: #115555;
+  background: #115555;
+  font-size: 0;
+  border: 0; }
+
+.sourceCode {
+  padding-top: 2em;
+  padding-bottom: 1em; }
+
 code {
   font-family: "Courier New", Courier, monospace, sans-serif;
   text-align: left;
