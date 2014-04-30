@@ -222,7 +222,7 @@ a {
   background-color: #224444; }
 
 .button-1, .button-2, .button-warn {
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 4px;
   text-transform: uppercase;
   transition: all 0.2s ease;
@@ -248,39 +248,37 @@ a {
 
 .button-1 {
   background-color: #ee9966;
-  color: #e66921;
-  text-shadow: 0px -1px 0px #224444; }
+  color: #e66921; }
   .button-1:hover {
     background-color: #224444; }
 
 .button-2 {
   background-color: #88aa66;
-  color: #627e46;
-  text-shadow: 0px -1px 0px #224444; }
+  color: #627e46; }
   .button-2:hover {
     background-color: #224444; }
 
 .button-warn {
   background-color: #eecc66;
-  color: #115555;
-  text-shadow: 0px -1px 0px #224444; }
+  color: #115555; }
   .button-warn:hover {
-    background-color: #224444; }
+    background-color: #224444;
+    color: #eecc66; }
 
 .btn-slide {
   width: 100%;
   color: #115555; }
   .btn-slide:hover {
-    color: #224444;
-    border: solid 0.2em #224444; }
+    color: #88aa66;
+    border: solid 0.2em #88aa66; }
 
 .btn-submit {
   margin: 1em auto;
   width: 100%;
   color: #115555; }
   .btn-submit:hover {
-    color: #224444;
-    border: solid 0.2em #224444; }
+    color: #88aa66;
+    border: solid 0.2em #88aa66; }
 
 input[type="text"], input[type="email"], textarea {
   border: solid 0.15em #115555;
@@ -459,3 +457,35 @@ img {
         width: 100%; }
         .wrapper nav:last-child {
           margin-right: 0; } }
+
+header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 4em;
+  background-color: #ee9966;
+  padding: 0.5em; }
+  header:last-child {
+    margin-right: 0; }
+  header h1 {
+    color: white;
+    margin-bottom: 0.15em;
+    font-weight: bold;
+    text-shadow: 0px -1px 0px #115555;
+    float: left; }
+  header h2 {
+    font-size: 1.25em;
+    color: white;
+    float: right;
+    margin-top: 3em; }
+  header span {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 0.75em;
+    color: #115555; }
+
+.head-container {
+  background-color: #ee9966;
+  width: 100%; }
