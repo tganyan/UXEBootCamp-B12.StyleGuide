@@ -77,6 +77,44 @@ html, body {
   width: 0;
   height: 0; }
 
+h1 {
+  padding-bottom: 0.5em;
+  padding-top: 0.3em; }
+  @media screen and (max-width: 768px) {
+    h1 {
+      padding-bottom: 0.5em; } }
+  @media screen and (max-width: 480px) {
+    h1 {
+      padding-bottom: 0.2em; } }
+
+h2, h3, h4, h5, h6 {
+  padding-bottom: 0.4em;
+  padding-top: 0.3em; }
+  @media screen and (max-width: 768px) {
+    h2, h3, h4, h5, h6 {
+      padding-bottom: 0.3em; } }
+  @media screen and (max-width: 480px) {
+    h2, h3, h4, h5, h6 {
+      padding-bottom: 0.2em; } }
+
+hr {
+  width: 100%;
+  height: 3px;
+  background: #c4c4c4;
+  border: none;
+  margin: 0 0 1.4em; }
+
+.sub-hr {
+  width: 100%;
+  height: 1px;
+  background: #c4c4c4;
+  border: none;
+  margin: 0 0 1.4em; }
+
+.sourceCode {
+  padding-top: 2em;
+  padding-bottom: 1em; }
+
 code {
   font-family: "Courier New", Courier, monospace, sans-serif;
   text-align: left;
