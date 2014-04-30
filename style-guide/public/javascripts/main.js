@@ -9,10 +9,9 @@ $(document).ready(function(){
                  $('nav').removeClass('fixed');
              }
         });
-    });
 
 //Smooth scroll function
-$(function() {
+
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -25,10 +24,17 @@ $(function() {
       }
     }
   });
-});
 
 // Slide toggles the panel ID and toggles the active class.
-$(".btn-slide").click(function(){
-    $("#panel").slideToggle("slow");
-    $(this).toggleClass("active");
+  
+  $(".btn-slide").click(function(){
+    
+    var $this = $(this);
+    
+    $this.siblings().children().slideUp(300);
+    $this.children().slideToggle(300);   
+    
+  });
+
+
 });
