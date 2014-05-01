@@ -7,17 +7,18 @@ nav {
   right: 0;
   color: $darkAccentColor;
   font-weight: bold;
-  @include media($tablet) {
-    position: fixed;
-    top: 0;
-    line-height: 0;
-    border: none;
   }
   a {
     padding-bottom: .2em;
   }
   .sub {
     padding-left: 1.2em;
+  }
+  @include media($tablet) {
+    
+  }
+  @include media($mobile) {
+
   }
 }
 
