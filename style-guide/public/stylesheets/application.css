@@ -196,26 +196,26 @@ a {
   a:active {
     color: #e66921; }
 
-.color1, .color2, .color3, .color4, .color5 {
+.primaryColor, .secondaryColor, .lightAccentColor, .darkAccentColor, .borderColor {
   display: inline-block;
   height: 100px;
   width: 100px;
   padding: 1em;
   margin: 0.5em; }
 
-.color1 {
+.primaryColor {
   background-color: #ee9966; }
 
-.color2 {
+.secondaryColor {
   background-color: #88aa66; }
 
-.color3 {
+.lightAccentColor {
   background-color: #eecc66; }
 
-.color4 {
+.darkAccentColor {
   background-color: #115555; }
 
-.color5 {
+.borderColor {
   background-color: #224444; }
 
 .button-1, .button-2, .button-warn {
@@ -389,19 +389,12 @@ nav {
   right: 0;
   color: #115555;
   font-weight: bold; }
-
-a {
-  padding-bottom: 0.2em; }
-
-.sub {
-  padding-left: 1.2em; }
-
-@media screen and (max-width: 768px) {
-  position: fixed;
-  top: 0;
-  line-height: 0;
-  border: none;
-  @in; }
+  nav a {
+    padding-bottom: 0.2em; }
+  nav .sub {
+    padding-left: 1.2em; }
+  @media screen and (max-width: 768px) { }
+  @media screen and (max-width: 480px) { }
 
 .wrapper {
   *zoom: 1;

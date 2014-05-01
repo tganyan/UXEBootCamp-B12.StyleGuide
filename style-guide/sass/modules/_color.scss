@@ -6,27 +6,27 @@
   margin: .5em;
 }
 
-.color1 {
+.primaryColor {
   @extend %color;
   background-color: $primaryColor;
 }
 
-.color2 {
+.secondaryColor {
   @extend %color;
   background-color: $secondaryColor;
 }
 
-.color3 {
+.lightAccentColor {
   @extend %color;
   background-color: $lightAccentColor;
 }
 
-.color4 {
+.darkAccentColor {
   @extend %color;
   background-color: $darkAccentColor;
 }
 
-.color5  {
+.borderColor  {
   @extend %color;
   background-color: $borderColor;
 }
