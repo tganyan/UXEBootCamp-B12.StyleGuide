@@ -528,16 +528,35 @@ footer {
   background-color: #ee9966;
   margin: 0 auto;
   padding: 0.5em;
-  width: 100%; }
-  footer p {
+  width: 100%;
+  height: auto; }
+  footer .footer-p {
+    display: block;
     font-size: 1.2em;
     font-weight: bold;
     color: white;
-    margin: 0 1em 0 0;
     float: left; }
-  footer a {
+    @media screen and (max-width: 768px) {
+      footer .footer-p {
+        display: inline-block;
+        float: left;
+        padding-bottom: 0.3em; } }
+  footer .footer-links {
+    float: right;
+    padding-top: 1em; }
+  footer .footer-links a {
+    display: inline-block;
     color: white;
-    float: left;
-    margin: 0.15em 1em 0 0; }
-  footer .alpha-link {
-    margin-left: 30em; }
+    padding-left: 1em; }
+    @media screen and (max-width: 768px) {
+      footer .footer-links a {
+        display: block;
+        float: left;
+        padding-top: 0.8em;
+        padding-bottom: 0.3em;
+        padding-right: 0.3em; } }
+    @media screen and (max-width: 480px) {
+      footer .footer-links a {
+        display: inline-block;
+        padding-top: 0.5em;
+        padding-bottom: 0.3em; } }
