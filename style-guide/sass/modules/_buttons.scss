@@ -1,0 +1,85 @@
+//Button extends
+////////////////
+
+%button {
+  padding: .5em;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: all .2s ease;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font: bold 1em "Open Sans", sans-serif;
+  text-decoration: none;
+  border: none;
+}
+
+%button-slide {
+  padding: .5em;
+  background-color: transparent;
+  border-radius: 4px;
+  font: bold .75em "Open Sans", sans-serif;
+  text-transform: uppercase;
+  transition: all .2s ease;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: $darkAccentColor;
+  border: solid .2em $borderColor;
+}
+
+
+//Button Examples
+/////////////////
+
+.button-1 {
+  @extend %button;
+  background-color: $primaryColor;
+  color: $primaryHover;
+  &:hover {
+    background-color: $borderColor;
+  };
+}
+
+.button-2 {
+  @extend %button;
+  background-color: $secondaryColor;
+  color: $secondaryHover;
+  &:hover {
+    background-color: $borderColor;
+  };
+}
+
+.button-warn {
+  @extend %button;
+  background-color: $lightAccentColor;
+  color: $darkAccentColor;
+  &:hover {
+    background-color: $borderColor;
+    color: $lightAccentColor;
+  };
+}
+
+//Slide-toggle BTN
+//////////////////
+
+.btn-slide {
+  @extend %button-slide;
+  width: 100%;
+  color: $darkAccentColor;
+  &:hover {
+    color: $secondaryColor;
+    border: solid .2em $secondaryColor;
+  };
+}
+
+.btn-submit {
+  @extend %button-slide;
+  margin: 1em auto;
+  width: 100%;
+  color: $darkAccentColor;
+  &:hover {
+    color: $secondaryColor;
+    border: solid .2em $secondaryColor;
+  };
+}

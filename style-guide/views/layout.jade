@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title AVAN Style Guide of Awesomeness
+    meta(name='description', content='My new project description')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black-translucent')
+    link(rel='stylesheet', href='stylesheets/application.css')
+  body
+    section.head-container
+        include includes/mobile-nav
+        button.button-1.mobile-nav.slider Menu
+        header
+            a(href="#" id="header")
+            include includes/header
+    section(class="wrapper")
+        nav
+            include includes/nav
+        article(class="main-content")
+            a(href="#" id="color")
+            include includes/color
+            a(href="#" id="type")
+            include includes/typography
+            a(href="#" id="forms")
+            include includes/forms
+            a(href="#" id="buttons")
+            include includes/buttons
+            a(href="#" id="lists")
+            include includes/lists
+            a(href="#" id="images")
+            include includes/images
+            a(href="#" id="svg")
+            include includes/svg
+            a(href="#" id="videos")
+            include includes/videos
+            a(href="#" id="bars")
+            include includes/bars
+    footer
+        include includes/footer
+    script(src='http://code.jquery.com/jquery-2.1.0.min.js')
+    script(src='javascripts/main.js')
+    script(src='//localhost:35729/livereload.js')
+
+
+

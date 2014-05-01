@@ -1,0 +1,40 @@
+footer {
+  background-color: $primaryColor;
+  margin: 0 auto;
+  padding: .5em;
+  width: 100%;
+  height: auto;
+  .footer-p {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $alpha;
+    float: left;
+    @include media($tablet) {
+      display: inline-block;
+      float: left;
+      padding-bottom: .3em;
+    }
+  }
+  .footer-links {
+    float: right;
+    padding-top: 1em;
+  }
+  .footer-links a {
+    display: inline-block;
+    color: $alpha;
+    padding-left: 1em;
+    @include media($tablet) {
+      display: block;
+      float: left;
+      padding-top: .8em;
+      padding-bottom: .3em;
+      padding-right: .3em;
+    }
+    @include media($mobile) {
+      display: inline-block;
+      padding-top: .5em;
+      padding-bottom: .3em;
+    }
+  }
+}

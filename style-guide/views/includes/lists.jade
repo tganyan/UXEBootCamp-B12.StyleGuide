@@ -1,0 +1,127 @@
+section
+  h1 Lists
+  hr
+  a(href="#" id="ol")
+  h2 Ordered Lists
+  hr.sub-hr
+  ol
+    li Item 1
+    li Item 2
+    li Item 3
+      ol
+        li Item 1
+        li Item 2
+          ol
+            li Item 1
+            li Item 2
+              ol
+                li Item 1
+                li Item 2
+                  ol
+                    li Item 1
+                    li Item 2
+    li Item 4
+  section.sourceCode
+    aside.sourceButton View Source Code
+      pre
+        code.scss.
+          ol {
+            margin-left:0em;
+            padding-left:1.5em;
+            margin-bottom:1em;
+          }
+          ol > li {
+              list-style: upper-roman;
+          }
+          ol > li li {
+              list-style: upper-alpha;
+          }
+          ol > li li li {
+              list-style: lower-roman;
+          }
+          ol > li li li li {
+              list-style: lower-alpha;
+          }
+          ol > li li li li li {
+              list-style: decimal;
+          }
+      pre
+        code.jade.
+          ol
+            li Item 1
+            li Item 2
+            li Item 3
+              ol
+                li Item 1
+                li Item 2
+                  ol
+                    li Item 1
+                    li Item 2
+                      ol
+                        li Item 1
+                        li Item 2
+                          ol
+                            li Item 1
+                            li Item 2
+  a(href="#" id="ul")
+  h2 Unordered Lists
+  hr.sub-hr
+  ul
+    li Item 1
+    li Item 2
+    li Item 3
+      ul
+        li Item 1
+        li Item 2
+          ul
+            li Item 1
+            li Item 2
+              ul
+                li Item 1
+                li Item 2
+                  ul
+                    li Item 1
+                    li Item 2
+    li Item 4
+  section.sourceCode
+    aside.sourceButton View Source Code
+      pre
+        code.scss.
+          ul {
+            margin-left:0em;
+            padding-left:1.5em;
+            margin-bottom:1em;
+          }
+          ul > li {
+              list-style: disc;
+          }
+          ul > li li {
+              list-style: circle;
+          }
+          ul > li li li {
+              list-style: square;
+          }
+          ul > li li li li {
+              list-style: disc;
+          }
+          ul > li li li li li {
+              list-style: circle;
+          }
+      pre
+        code.jade.
+          ul
+            li Item 1
+            li Item 2
+            li Item 3
+              ul
+                li Item 1
+                li Item 2
+                  ul
+                    li Item 1
+                    li Item 2
+                      ul
+                        li Item 1
+                        li Item 2
+                          ul
+                            li Item 1
+                            li Item 2

@@ -1,0 +1,27 @@
+section
+  h1 Images
+  hr
+  div.images
+      figure
+        img(src='http://placehold.it/560x420')
+        figcaption.
+          This is an image caption. Images on the site will be set to 100% width inside of their parent container, captions will be no more than 2-3 lines long.
+  section.sourceCode
+    aside.sourceButton View Source Code
+      pre
+        code.scss.
+          figure {
+          width: 80%;
+          }
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+      pre
+        code.jade.
+          figure
+            img(src='http://placehold.it/560x420')
+            figcaption.
+              "Caption text."
+
