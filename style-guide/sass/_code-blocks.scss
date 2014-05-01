@@ -2,15 +2,15 @@ aside {
   font-family: 'Open Sans', 'sans-serif';
   cursor: pointer;
   width: 100%;
-  color: darken($secondaryColor, 15%);
-  border: solid .2em darken($secondaryColor, 15%);
+  color: $secondaryColor;
+  border: solid .2em $secondaryColor;
   padding: .5em;
   margin-bottom: 18em;
   background-color: transparent;
   border-radius: 4px;
   &:hover {
-    color: $secondaryColor;
-    border: solid .2em $secondaryColor;
+    color: darken($secondaryColor, 15%);
+    border: solid .2em darken($lightAccentColor, 15%);
   }
   &:active {
     color: $secondaryColor;

@@ -4,10 +4,11 @@
 header {
   @include span-columns(12);
   text-align: center;
-  margin-bottom: 4em;
+  padding-bottom: 4em;
   background-color: $primaryColor;
   padding: .5em;
   h1 {
+    display: block;
     color: white;
     margin-bottom: .15em;
     font-weight: bold;
@@ -18,7 +19,7 @@ header {
     margin-top: .5em;
     };
   };
-  h2 {
+  h3 {
     font-size: 1.25em;
     color: white;
     float: right;
@@ -28,11 +29,15 @@ header {
     margin-top: 0;
     };
   };
-  span {
+  h2 {
+    display: block;
+    float: left;
     font-style: italic;
     font-weight: bolder;
-    font-size: .75em;
+    font-size: 1em;
     color: $darkAccentColor;
+    padding-top: 4em;
+    padding-left: 1em;
   };
 }
 .head-container {

@@ -119,15 +119,15 @@ aside {
   font-family: 'Open Sans', 'sans-serif';
   cursor: pointer;
   width: 100%;
-  color: #627e46;
-  border: solid 0.2em #627e46;
+  color: #88aa66;
+  border: solid 0.2em #88aa66;
   padding: 0.5em;
   margin-bottom: 18em;
   background-color: transparent;
   border-radius: 4px; }
   aside:hover {
-    color: #88aa66;
-    border: solid 0.2em #88aa66; }
+    color: #627e46;
+    border: solid 0.2em #e6b521; }
   aside:active {
     color: #88aa66;
     border: solid 0.2em #88aa66; }
@@ -144,8 +144,8 @@ pre code {
 pre {
   background-color: #F5F2F0;
   padding: 0.1em 0.5em 0.3em 0.7em;
-  border: 0.1em solid #ee9966;
-  border-left: 1em solid #ee9966;
+  border: 0.1em solid #22aaaa;
+  border-left: 1em solid #22aaaa;
   margin: 1.7em 0 1.7em 0.3em;
   overflow: auto;
   width: 93%;
@@ -193,11 +193,11 @@ a {
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
-  color: #ee9966; }
+  color: #22aaaa; }
   a:hover {
     color: #627e46; }
   a:active {
-    color: #e66921; }
+    color: #156a69; }
 
 .primaryColor, .secondaryColor, .lightAccentColor, .darkAccentColor, .borderColor {
   display: inline-block;
@@ -208,7 +208,7 @@ a {
   color: white; }
 
 .primaryColor {
-  background-color: #ee9966; }
+  background-color: #22aaaa; }
 
 .secondaryColor {
   background-color: #88aa66; }
@@ -248,8 +248,8 @@ a {
   border: solid 0.2em #224444; }
 
 .button-1 {
-  background-color: #ee9966;
-  color: #e66921; }
+  background-color: #22aaaa;
+  color: #156a69; }
   .button-1:hover {
     background-color: #224444; }
 
@@ -305,6 +305,7 @@ form ul {
     list-style: none; }
 
 ol, ul {
+  font-family: 'Open Sans', 'sans-serif';
   margin-left: 0em;
   padding-left: 1.5em;
   margin-bottom: 1em; }
@@ -382,7 +383,7 @@ img {
   transition: all 1.2s ease; }
   .meter-1:hover {
     width: 100%;
-    background-color: #ee9966; }
+    background-color: #22aaaa; }
 
 nav {
   padding: 0.5%;
@@ -425,7 +426,7 @@ select {
   right: 4em;
   width: auto;
   display: none;
-  background-color: #ee9966;
+  background-color: #22aaaa;
   padding: 0.25em;
   border-radius: 4px;
   margin-top: 0; }
@@ -518,12 +519,13 @@ header {
   margin-right: 2.35765%;
   width: 100%;
   text-align: center;
-  margin-bottom: 4em;
-  background-color: #ee9966;
+  padding-bottom: 4em;
+  background-color: #22aaaa;
   padding: 0.5em; }
   header:last-child {
     margin-right: 0; }
   header h1 {
+    display: block;
     color: white;
     margin-bottom: 0.15em;
     font-weight: bold;
@@ -533,27 +535,31 @@ header {
       header h1 {
         float: left;
         margin-top: 0.5em; } }
-  header h2 {
+  header h3 {
     font-size: 1.25em;
     color: white;
     float: right;
     margin-top: 3em; }
     @media screen and (max-width: 768px) {
-      header h2 {
+      header h3 {
         float: left;
         margin-top: 0; } }
-  header span {
+  header h2 {
+    display: block;
+    float: left;
     font-style: italic;
     font-weight: bolder;
-    font-size: 0.75em;
-    color: #115555; }
+    font-size: 1em;
+    color: #115555;
+    padding-top: 4em;
+    padding-left: 1em; }
 
 .head-container {
-  background-color: #ee9966;
+  background-color: #22aaaa;
   width: 100%; }
 
 footer {
-  background-color: #ee9966;
+  background-color: #22aaaa;
   margin: 0 auto;
   padding: 0.5em;
   width: 100%;
