@@ -202,7 +202,8 @@ a {
   height: 100px;
   width: 100px;
   padding: 1em;
-  margin: 0.5em; }
+  margin: 0.5em;
+  color: white; }
 
 .primaryColor {
   background-color: #ee9966; }
