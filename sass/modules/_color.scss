@@ -1,0 +1,35 @@
+%color {
+  display: inline-block;
+  height: 100px; 
+  width: 100px;
+  border-radius: 50%;
+  padding-top: 2.5em;
+  padding-left: 1.4em;
+  margin: .5em;
+  color: $alpha;
+}
+
+.primaryColor {
+  @extend %color;
+  background-color: $primaryColor;
+}
+
+.secondaryColor {
+  @extend %color;
+  background-color: $secondaryColor;
+}
+
+.lightAccentColor {
+  @extend %color;
+  background-color: $lightAccentColor;
+}
+
+.darkAccentColor {
+  @extend %color;
+  background-color: $darkAccentColor;
+}
+
+.borderColor  {
+  @extend %color;
+  background-color: $borderColor;
+}

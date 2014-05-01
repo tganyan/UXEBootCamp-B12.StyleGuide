@@ -1,0 +1,28 @@
+input[type="text"],
+input[type="email"],
+textarea {
+  border: solid .15em $darkAccentColor;
+  font-size: 1em;
+  min-height: 1.5em;
+  width: 100%;
+  display: block;
+  margin: .5em 0;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9);
+  color: $darkAccentColor;
+  border-radius: 4px;
+  padding: 1em;
+  font-family: "Open Sans", sans-serif;
+  -webkit-appearance: none;
+}
+
+label {
+  color: $borderColor;
+  font: bold 1.2em "Open Sans", sans-serif;
+}
+
+form ul {
+  padding: 0;
+  li {
+  list-style: none;
+  };
+}

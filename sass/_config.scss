@@ -1,0 +1,20 @@
+//Color Variables
+//////////////////////
+$primaryColor: lighten(#115555, 20%);
+$secondaryColor: #88aa66;
+$lightAccentColor: #eecc66;
+$darkAccentColor: #115555;
+$borderColor: #224444;
+$alpha: white;
+
+//Hover Links
+//////////////////////
+$primaryHover: darken($primaryColor, 15%);
+$secondaryHover: darken($secondaryColor, 15%);
+
+//Typography Variables
+//////////////////////
+
+$serif-text:'Droid Serif';
+$sans-text: 'Open Sans';
+

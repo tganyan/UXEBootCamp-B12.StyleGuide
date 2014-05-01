@@ -1,0 +1,38 @@
+ol, ul {
+  font-family: 'Open Sans', 'sans-serif';
+  margin-left:0em; 
+  padding-left:1.5em; 
+  margin-bottom:1em; 
+}
+
+ol > li {
+    list-style: upper-roman;
+}
+ol > li li {
+    list-style: upper-alpha;
+}
+ol > li li li {
+    list-style: lower-roman;
+}
+ol > li li li li {
+    list-style: lower-alpha;
+}
+ol > li li li li li {
+    list-style: decimal;
+}
+
+ul > li {
+    list-style: disc;
+}
+ul > li li {
+    list-style: circle;
+}
+ul > li li li {
+    list-style: square;
+}
+ul > li li li li {
+    list-style: disc;
+}
+ul > li li li li li {
+    list-style: circle;
+}
