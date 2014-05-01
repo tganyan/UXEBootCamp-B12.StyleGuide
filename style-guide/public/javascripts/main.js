@@ -1,17 +1,5 @@
 $(document).ready(function(){
 
-//Sticky nav script
-
- $(window).bind('scroll', function() {
-  var navHeight = $( window ).height() - -200;
-  if ($(window).scrollTop() > navHeight) {
-     $('nav').addClass('fixed');
-    }
-  else {
-     $('nav').removeClass('fixed');
-    }
-  });
-
 //Smooth scroll function
 
   $('a[href*=#]:not([href=#])').click(function() {
@@ -46,3 +34,10 @@ $(document).ready(function(){
 
 
 });
+
+// Off-canvas slider function
+
+$(".slider").click(function(){
+    $("#panel").slideToggle("slow");
+    $(this).toggleClass("active");
+  });
