@@ -404,6 +404,31 @@ nav {
 select {
   display: none; }
 
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0.2em; }
+  @media screen and (min-width: 769px) {
+    .mobile-nav {
+      display: none; } }
+
+.active {
+  display: block; }
+
+#panel {
+  position: fixed;
+  top: 0;
+  right: 4em;
+  width: auto;
+  display: none;
+  background-color: #ee9966;
+  padding: 0.25em;
+  border-radius: 4px;
+  margin-top: 0; }
+  #panel select {
+    display: block; }
+
 .wrapper {
   *zoom: 1;
   max-width: 68em;

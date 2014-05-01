@@ -29,3 +29,35 @@ nav {
 select {
   display: none
 }
+
+//Mobile styles
+///////////////
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: .2em;
+  @include media($desktop) {
+    display: none;
+  }
+}
+
+.active {
+  display: block;
+}
+
+#panel {
+  position: fixed;
+  top: 0;
+  right: 4em;
+  width: auto;
+  display: none;
+  background-color: $primaryColor;
+  padding: .25em;
+  border-radius: 4px;
+  margin-top: 0;
+  select {
+    display: block;
+  }
+}
