@@ -389,16 +389,19 @@ nav {
   right: 0;
   color: #115555;
   font-weight: bold; }
-  @media screen and (max-width: 768px) {
-    nav {
-      position: fixed;
-      top: 0;
-      line-height: 0;
-      border: none; } }
-  nav a {
-    padding-bottom: 0.2em; }
-  nav .sub {
-    padding-left: 1.2em; }
+
+a {
+  padding-bottom: 0.2em; }
+
+.sub {
+  padding-left: 1.2em; }
+
+@media screen and (max-width: 768px) {
+  position: fixed;
+  top: 0;
+  line-height: 0;
+  border: none;
+  @in; }
 
 .wrapper {
   *zoom: 1;
