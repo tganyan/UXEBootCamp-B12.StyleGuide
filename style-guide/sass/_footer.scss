@@ -1,0 +1,21 @@
+footer {
+  background-color: $primaryColor;
+  margin: 0 auto;
+  padding: .5em;
+  width: 100%;
+  p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $alpha;
+    margin: 0 1em 0 0;
+    float: left;
+  }
+  a {
+    color: $alpha;
+    float: left;
+    margin: .15em 1em 0 0;
+  }
+  .alpha-link {
+    margin-left: 30em;
+  }
+}
