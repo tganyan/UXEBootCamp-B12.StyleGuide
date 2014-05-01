@@ -14,10 +14,18 @@ nav {
     padding-left: 1.2em;
   }
   @include media($tablet) {
-    
+    nav .nav {
+      display: none;
+    }
+    nav select {
+      display: inline-block;
+    }
   }
   @include media($mobile) {
 
   }
 }
 
+select {
+  display: none
+}

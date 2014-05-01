@@ -27,6 +27,14 @@ $(document).ready(function(){
     }
   });
 
+  $('nav select').change(function() {
+    $.smoothScroll({
+        offset: -70,
+        speed: 2000,
+        scrollTarget: $(this).val()
+    });
+  });
+
 // Slide toggles
 
   $("pre").hide();
