@@ -36,9 +36,6 @@ a {
   text-decoration: none;
   color: $primaryColor;
   &:hover {
-    color: $primaryHover;
-  }
-  &:visited {
     color: $secondaryHover;
   }
   &:active {

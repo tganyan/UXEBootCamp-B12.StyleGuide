@@ -192,8 +192,6 @@ a {
   text-decoration: none;
   color: #ee9966; }
   a:hover {
-    color: #e66921; }
-  a:visited {
     color: #627e46; }
   a:active {
     color: #e66921; }
@@ -384,34 +382,23 @@ img {
 
 nav {
   padding: 0.5%;
+  padding-right: 4%;
   width: 100%;
   position: fixed;
   top: 10em;
   right: 0;
   color: #115555;
-  font-weight: bold;
-  border-top: solid 2px #224444; }
+  font-weight: bold; }
   @media screen and (max-width: 768px) {
     nav {
       position: fixed;
       top: 0;
       line-height: 0;
       border: none; } }
-  @media screen and (max-width: 768px) {
-    nav p {
-      line-height: 0; } }
-
-select {
-  background-color: #115555;
-  border: none;
-  font-size: 1.2em;
-  color: white;
-  border-radius: 4px; }
-  @media screen and (max-width: 768px) {
-    select {
-      position: fixed;
-      top: 0;
-      border: none; } }
+  nav a {
+    padding-bottom: 0.2em; }
+  nav .sub {
+    padding-left: 1.2em; }
 
 .wrapper {
   *zoom: 1;

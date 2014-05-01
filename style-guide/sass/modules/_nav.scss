@@ -1,35 +1,23 @@
 nav {
   padding: .5%;
+  padding-right: 4%;
   width: 100%;
   position: fixed;
   top: 10em;
   right: 0;
   color: $darkAccentColor;
   font-weight: bold;
-  border-top: solid 2px $borderColor;
   @include media($tablet) {
     position: fixed;
     top: 0;
     line-height: 0;
     border: none;
-    };
-  p {
-    @include media($tablet) {
-    line-height: 0;
-  };
   }
-}
-
-select {
-  background-color: $darkAccentColor;
-  border: none;
-  font-size: 1.2em;
-  color: white;
-  border-radius: 4px;
-  @include media($tablet) {
-    position: fixed;
-    top: 0;
-    border: none;
-  };
+  a {
+    padding-bottom: .2em;
+  }
+  .sub {
+    padding-left: 1.2em;
+  }
 }
 
