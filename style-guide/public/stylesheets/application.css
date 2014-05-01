@@ -116,6 +116,8 @@ hr {
   padding-bottom: 1em; }
 
 aside {
+  font-family: 'Open Sans', 'sans-serif';
+  cursor: pointer;
   width: 100%;
   color: #627e46;
   border: solid 0.2em #627e46;
