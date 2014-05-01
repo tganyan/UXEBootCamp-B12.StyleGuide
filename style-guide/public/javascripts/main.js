@@ -41,3 +41,13 @@ $(".slider").click(function(){
     $("#panel").slideToggle("slow");
     $(this).toggleClass("active");
   });
+
+// Removes off-canvas if browser gets bigger
+
+var width = null;
+  $( window ).resize(function() {
+    width = $( window ).width();
+    if( width > 767){
+      $( "#panel" ).hide();
+    }
+  });
