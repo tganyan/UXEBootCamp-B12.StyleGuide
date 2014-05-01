@@ -20,3 +20,9 @@ label {
   font: bold 1.2em "Open Sans", sans-serif;
 }
 
+form ul {
+  padding: 0;
+  li {
+  list-style: none;
+  };
+}

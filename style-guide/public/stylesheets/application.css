@@ -297,6 +297,11 @@ label {
   color: #224444;
   font: bold 1.2em "Open Sans", sans-serif; }
 
+form ul {
+  padding: 0; }
+  form ul li {
+    list-style: none; }
+
 ol, ul {
   margin-left: 0em;
   padding-left: 1.5em;
