@@ -394,8 +394,15 @@ nav {
     padding-bottom: 0.2em; }
   nav .sub {
     padding-left: 1.2em; }
-  @media screen and (max-width: 768px) { }
+  @media screen and (max-width: 768px) {
+    nav nav .nav {
+      display: none; }
+    nav nav select {
+      display: inline-block; } }
   @media screen and (max-width: 480px) { }
+
+select {
+  display: none; }
 
 .wrapper {
   *zoom: 1;

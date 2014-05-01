@@ -1,16 +1,34 @@
 nav
-    a(href="#color") Colors
-    a(href="#type") Typography
-    a(href="" class="sub") -Font Stacks
-    a(href="" class="sub") -Section Header
-    a(href="" class="sub") -P Tags
-    a(href="#forms") Forms
-    a(href="#buttons") Buttons
-    a(href="#lists") Lists
-    a(href="" class="sub") -Ordered Lists
-    a(href="" class="sub") -Unordered Lists
-    a(href="#images") Media
-    a(href="#images" class="sub") -Image
-    a(href="#svg" class="sub") -Svg
-    a(href="#videos" class="sub") -Video
-    a(href="#bars") Progress Bar
+    div.nav
+        a(href="#color") Colors
+        a(href="#type") Typography
+        a(href="" class="sub") -Font Stacks
+        a(href="" class="sub") -Section Header
+        a(href="" class="sub") -P Tags
+        a(href="#forms") Forms
+        a(href="#buttons") Buttons
+        a(href="#lists") Lists
+        a(href="" class="sub") -Ordered Lists
+        a(href="" class="sub") -Unordered Lists
+        a(href="#images") Media
+        a(href="#images" class="sub") -Image
+        a(href="#svg" class="sub") -Svg
+        a(href="#videos" class="sub") -Video
+        a(href="#bars") Progress Bar
+
+    select(name="forma" onchange="location = this.options[this.selectedIndex].value;")
+        option(value="#color" class="smoothscroll") Colors
+        option(value="#type" class="smoothscroll") Typography
+        option(value="" class="smoothscroll") -Font Stacks
+        option(value="" class="smoothscroll") -Section Header
+        option(value="" class="smoothscroll") -P Tags
+        option(value="#forms" class="smoothscroll") Forms
+        option(value="#buttons" class="smoothscroll") Buttons
+        option(value="#lists" class="smoothscroll") Lists
+        option(value="" class="smoothscroll") -Ordered Lists
+        option(value="" class="smoothscroll") -Unordered Lists
+        option(value="#images" class="smoothscroll") Media
+        option(value="#images" class="smoothscroll") -Image
+        option(value="#svg" class="smoothscroll") -Svg
+        option(value="#videos" class="smoothscroll") -Video
+        option(value="#bars" class="smoothscroll") Progress Bar
